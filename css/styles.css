@@ -93,3 +93,26 @@ cursor: pointer;
 color: #FFFFFF;
 background-color:#2196F3;
 }
+
+/*<------------Секция Наши преимущества------------*/
+
+.benefits-main-title {
+}
+
+.benefits-secondary-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*<------------Секция Чем мы занимаемся------------*/
