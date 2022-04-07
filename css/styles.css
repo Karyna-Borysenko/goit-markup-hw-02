@@ -123,5 +123,36 @@ background-color:#2196F3;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    }
+}
 
+/*<------------Секция Наша команда------------*/
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-main-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-secondary-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
