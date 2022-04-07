@@ -1,15 +1,15 @@
 :root{
-    
-    --title-color:#212121;
+    --main-color:#212121;
     --used-color:#FFFFFF;
     --used-transparent-color:rgba(255, 255, 255, 0.6);
     --accent-color:#2196F3;
+    --body-color:#757575;
 }
 
 body{
     font-family: 'Roboto','Raleway', sans-serif;
     background-color: var(--used-color);
-    color: #757575;
+    color: var(--body-color);
 }
 
 .link {
@@ -33,7 +33,7 @@ body{
     margin: -1px;
 }
 
-/*------------Шапка сайта-header------------*/
+/*------------------------------------------------------------------Шапка сайта-header------------------------------------------------------------------*/
 
 .header-logo {
     font-family: 'Raleway','Roboto', sans-serif;
@@ -56,7 +56,7 @@ body{
 }
 
 .header-link{
-    color: var(--title-color)
+    color: var(--main-color)
 }
 
 .current {
@@ -64,7 +64,7 @@ body{
 }
 
 .header-mail, .header-phone {
-    color: var(--main-color);
+    color: var(--body-color);
 }
 
 .header-link:hover,.header-mail:hover,.header-phone:hover, 
@@ -72,9 +72,10 @@ body{
     color: var(--accent-color);
 }
 
+/*------------------------------------------------------------------index.html------------------------------------------------------------------*/
 /*--Оснавная часть-main section-->*/
 
-/*<------------Cекция Герой-Hero------------*/
+/*------------Cекция Герой-Hero------------*/
 .hero {
     background-color:#2F303A;
 }
@@ -91,28 +92,25 @@ body{
 .hero-button {
     font-family: inherit;
     font-weight: 700;
-    font-size: 16px;;
+    font-size: 16px;
     line-height: 1.88;
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
+    border-style: none;
     cursor: pointer;
-    color: var(--used-color);
-    border-style: none ;
     background-color:var(--accent-color);
-    }
-
-/*<------------Секция Наши преимущества------------*/
-
-.benefits-main-title {
+    color: var(--used-color);
 }
+
+/*------------Секция Наши преимущества------------*/
 
 .benefits-secondary-title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-color)
+    color: var(--main-color);
 }
 
 .benefits-text {
@@ -122,17 +120,17 @@ body{
     
 }
 
-/*<------------Секция Чем мы занимаемся------------*/
+/*------------Секция Чем мы занимаемся------------*/
 
 .speciality-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-color);
+    color: var(--main-color);
 }
 
-/*<------------Секция Наша команда------------*/
+/*------------Секция Наша команда------------*/
 
 .team {
     background-color: #F5F4FA;
@@ -143,7 +141,7 @@ body{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-color);
+    color: var(--main-color);
 }
 
 .team-secondary-title, .team-text {
@@ -153,13 +151,51 @@ body{
     letter-spacing: 0.03em;
 }
 
-.team-secondary-title{
+.team-secondary-title {
     font-weight: 500;
-    color: var(--title-color);
+    color: var(--main-color);
 }
 
 
-/*<------------Подвал сайта-Footer------------*/
+/*------------------------------------------------------------------portfolio.html------------------------------------------------------------------*/
+/*--Оснавная часть-main section-->*/
+
+/*------------Cекция Portfolio------------*/
+
+.portfolio-button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-style: none;
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--used-color);
+    background-color: var(--accent-color);
+}
+
+.porfolio-secondary-title {
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--body-color);
+}
+
+/*------------------------------------------------------------------Подвал сайта-Footer------------------------------------------------------------------*/
 
 .footer {
     background-color: #2F303A;
